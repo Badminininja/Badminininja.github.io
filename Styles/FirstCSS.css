@@ -1,16 +1,35 @@
 h1{
     background: red;
-    font-size: 200%;
+    font-size: 300%;
     text-align: center;
 }
 header{
     text-align: center;
-    background: rgb(255, 255, 255);
+    
     font-size: large;
+}
+body{
+    background: gray;
 }
 h2{
     background: rgb(161, 157, 157);
     font-variant: small-caps;
+    font-size: 200%;
+    text-align: center;
+}
+div{
+    display: inline-block;
+}
+ul{
+    
+    
+    background: rgb(73, 138, 73);
+}
+li{
+    font-size: 200%;
+}
+footer{
+    visibility: none;
 }
 Footer{
     font-size: 300%;
