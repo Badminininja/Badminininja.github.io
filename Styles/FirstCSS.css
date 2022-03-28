@@ -45,6 +45,10 @@ p{
 footer{
     visibility: none;
 }
+.secondLayer{
+    display: block;
+    background: red;
+}
 Footer{
     clear: both;
     font-size: 300%;
