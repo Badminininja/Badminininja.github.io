@@ -10,6 +10,7 @@ header{
 }
 body{
     background: gray;
+    margin: 2%;
 }
 h2{
     background: rgb(161, 157, 157);
@@ -18,7 +19,10 @@ h2{
     text-align: center;
 }
 div{
+    width: 23%;
     display: inline-block;
+    float: left;
+    margin-right: 2%;
 }
 ul{
     
@@ -32,6 +36,7 @@ footer{
     visibility: none;
 }
 Footer{
+    clear: both;
     font-size: 300%;
     text-align: center;
 }
