@@ -46,8 +46,9 @@ footer{
     visibility: none;
 }
 .secondLayer{
-    display: block;
-    background: red;
+    clear: both;
+    display: inline-block;
+    
 }
 Footer{
     clear: both;
