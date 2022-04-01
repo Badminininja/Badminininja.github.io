@@ -17,6 +17,7 @@ h2{
     font-variant: small-caps;
     font-size: 200%;
     text-align: center;
+  
 }
 div{
     width: 23%;
@@ -45,10 +46,18 @@ p{
 footer{
     visibility: none;
 }
+h3{
+    background: rgb(161, 157, 157);
+    font-variant: small-caps;
+    font-size: 200%;
+    text-align: center;
+    clear: both;
+    display: block;
+}
 .secondLayer{
     clear: both;
-    display: inline-block;
-    
+    float: left;
+    font-size: 200%;
 }
 Footer{
     clear: both;
