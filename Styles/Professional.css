@@ -1,5 +1,5 @@
 h1{
-    background: red;
+    background: rgb(101, 86, 231);
     font-size: 300%;
     text-align: center;
 }
@@ -20,15 +20,17 @@ h2{
   
 }
 div{
-    width: 23%;
+    width: 30%;
     float: left;
     margin-right: 2%;
 }
-ul{
-    background: rgb(73, 138, 73);
-}
+
 li{
-    font-size: 200%;
+    background: rgb(78, 130, 173);
+    font-size: 130%;
+}
+.inProgress{
+    background: rgb(120, 190, 120);
 }
 label{
     font-size: 200%;
