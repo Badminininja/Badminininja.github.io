@@ -47,6 +47,8 @@ progress{
 summary{
     font-size: 150%;
     background: rgb(90, 110, 138);
+    border-radius: 30px;
+
 }
 p{
     font-size:120%;
@@ -67,6 +69,9 @@ h3{
     clear: both;
     float: left;
     font-size: 200%;
+}
+details{
+    margin-top: 5px;
 }
 Footer{
     clear: both;
