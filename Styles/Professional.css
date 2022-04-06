@@ -41,6 +41,7 @@ progress{
 }
 summary{
     font-size: 150%;
+    background: rgb(90, 110, 138);
 }
 p{
     font-size:120%;
