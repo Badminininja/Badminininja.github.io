@@ -17,12 +17,18 @@
     </header>
 
     <div class="container">
-        <h2>Objective</h2>
-        <p>MS graduate in computer science at University of California, Riverside with a focus in NLP/ML engineering, cybersecurity, 
+        <h2>Summary</h2>
+            <p>MS graduate in Computer Science with experience in NLP/ML engineering, cybersecurity, and data analytics. Developed 
+                and deployed technical solutions using Python and C++, leveraging tools such as Pandas, TensorFlow, LLM APIs, and Burp 
+                Suite. Experienced in research-driven development through cybersecurity reverse engineering and AI instruction, with a 
+                strong focus on building efficient, scalable systems. Comfortable working in Agile environments, collaborating across 
+                teams, and translating complex technical concepts into practical implementations.</p>
+            <!--<p>MS graduate in computer science at University of California, Riverside with a focus in NLP/ML engineering, cybersecurity, 
             and data analytics. I utilize Python and C++ for my general languages and have leveraged Pandas, LLM APIs, TensorFlow,  
             Burp Suite and more in my projects. I’ve developed expertise in research and instruction through work as a cybersecurity 
             research intern using Ghidra in an agile environment and being an AI teaching assistant helping with ETL and more.</p>
-<!-- I hold a Master’s degree in Computer Science from UCR, specializing in computer security and AI. With a strong 
+ -->
+            <!-- I hold a Master’s degree in Computer Science from UCR, specializing in computer security and AI. With a strong 
             interest in areas such as software security and NLP, I am passionate about leveraging technology to address 
             emerging cybersecurity challenges. Eager to apply my knowledge and skills, I’m committed to learning and adapting 
             quickly to meet the needs of your organization and contributing to the advancement of technology.
@@ -30,7 +36,7 @@
         <h2>Current Education</h2>
         <ul>
             <li>University Of California, Riverside (UCR)</li>
-            <li><strong>New Graduate</strong>: December 2024 </li>
+            <!--<li><strong>New Graduate</strong>: December 2024 </li>-->
             <li>Master of Science in Computer Science</li>
             <li><strong>Overall GPA: 3.56</strong>  </li>
         </ul>
@@ -52,8 +58,59 @@
                 </ul>
             </li>
         </ul>
+        <h2>Experience</h2>
+        <ul class="larger-text">
+            <li>Artificial Intelligence Teacher Assistant
+                <ul class="bullet-style">
+                    <li>Teacher Assistant</li>
+                    <li>Increased student performance by up to 30% by leading weekly discussion sessions for 30+ students, explaining care
+AI concepts such as supervised learning and data pre-processing.</li>
+                    <li>Assisted in developing course materials, coding examples and lab exercises using Python and Jupyter Notebooks.</li>
+                    <li>Held weekly office hours, providing 1-on-1 support in debugging Python code, optimizing data pipelines, and
+reinforcing machine learning concepts.</li>
+                    <li> Evaluated student final projects through live code demonstrations, assessing functionality, code quality, and
+technical design while providing actionable feedback.</li>
+                    <li>Guided students in optimizing ETL processes, improving data integrity by 30%.</li>
+                </ul>
+            </li>
+            <li>BitSecurerLab
+                <ul class="bullet-style">
+                    <li>Research Intern</li>
+                    <li>Applied reverse engineering techniques using Ghidra to interpret binary structures and support feature
+development for the disassembler platform.</li>
+                    <li>Collaborated in an Agile team to develop an online disassembler, contributing to system functionality and binary
+analysis features.</li>
+                    <li>Developed an interactive 3D force-directed graph in Vue.js to visualize function and memory relationships,
+improving analysis clarity by 25%.</li>
+                </ul>
+            </li>
 
-        <h2>Relevant Classes Taken <span  class="small-text">(Graduate level is 200+)</span></h2>
+            <li>Boba Tea House
+                <ul class="bullet-style">
+                    <li>Created food and tea for the establishment promptly.</li>
+                    <li>Interacted with customers to create an open and friendly environment. </li>
+                    <li>Increased customer satisfaction by 40% through timely orders and friendly attitudes. </li>
+                </ul>
+            </li>
+            <li>Kadima Security Services
+                <ul class="bullet-style">
+                    <li>Managing calls, files, and letters</li>
+                    <li>Organizing the office and employees</li>
+                    <li>Increased employee satisfaction by 30% by creating a more efficient workspace</li>
+                </ul>
+            </li>
+            <li>High School SAT Tutor
+                <ul class="bullet-style">
+                    <li>Educating underclassmen</li>
+                    <li>Responding to questions </li>
+                    <li>Gauging understanding</li>
+                    <li>Creating appropriate presentations</li>
+            </ul>
+            </li>
+        </ul>
+        
+        <h2 onclick="toggleSummary('classes')">Relevant Classes Taken <span  class="small-text">(Graduate level is 200+) click to expand</span></h2>
+        <div id="classes" class="project-summary">
         <ul><!-- Bullet list -->
             <li>Apprentice Teaching (CS 302)</li>
             <li>Software Security (CS 250)</li>
@@ -82,14 +139,23 @@
             <li>Compiler Design (CS 152)</li>
             
         </ul>
+        </div>
 
         <h2>Projects <span class="small-text">(click to expand)</span> </h2>
         <ul>
             <li class="project-name" onclick="toggleSummary('project0')">Automatically Jailbreaking Black-Box LLMs (NLP Project) <a href="https://github.com/Badminininja/TreeOfAttacks" target = "blank_" rel="noreferrer noopener">(Link)</a></li>
             <div id="project0" class="project-summary">
-                <p> This was my final for my Natural Langauge Processing (NLP) class and allowed me to show a 44% jailbreak capability against a state-of-the-art LLM. This
-                    project got me more comfortable using NLP libraries as well as familiarizing myself with hugging face, openAI, and other LLM related APIs
-                    </p>
+                <p> • Developed an automated pipeline to generate and evaluate jailbreak prompts against black-box LLMs, achieving a
+                        44% success rate in bypassing safety constraints.</p>
+                <p> • Designed experiments to systematically test model vulnerabilities across multiple LLM APIs, analyzing response
+                        behavior and failure patterns.</p>
+                <p> • Implemented experiment tracking and visualization using Weights & Biases to monitor performance metrics and
+                        compare jailbreak strategies.</p>
+            </div>
+            <li class="project-name" onclick="toggleSummary('project9')">Yelp's Perfect Establishments (Big Data Analysis using Spark) <a href="https://github.com/kkadhith/YelpBigDataAnalysis" target = "blank_" rel="noreferrer noopener">(Link)</a></li>
+            <div id="project9" class="project-summary">
+                <p>• Analyzed large-scale Yelp datasets using Apache Spark to identify patterns in business performance and customer ratings.</p>
+                <p>• Trained a Random Forest model to predict establishment success based on extracted and analyzed features.</p>
             </div>
             <li class="project-name" onclick="toggleSummary('project1')">Machine Learning Labs <a href="https://github.com/Badminininja/MachineLearningFundamentals" target = "blank_" rel="noreferrer noopener">(Link)</a></li>
             <div id="project1" class="project-summary">
@@ -105,12 +171,7 @@
                     add to visual clarity
                     </p>
             </div>
-            <li class="project-name" onclick="toggleSummary('project9')">Yelp's Perfect Establishments (Big Data Analysis using Spark) <a href="https://github.com/kkadhith/YelpBigDataAnalysis" target = "blank_" rel="noreferrer noopener">(Link)</a></li>
-            <div id="project9" class="project-summary">
-                <p> I used the Yelp Open dataset to work with a group to extract insights using Spark and displaying it with an interface. I worked mainly on creating the visualizations
-                    that came from Spark queries as well as helping my group with the random forest ML model. 
-                    </p>
-            </div>
+            
             <li class="project-name" onclick="toggleSummary('project10')">Crime Rate and Housing Price analysis in the United States <a href="https://github.com/Badminininja/Crime-Rate-and-Housing-Price-analysis-in-the-United-States/tree/main" target = "blank_" rel="noreferrer noopener">(Link)</a></li>
             <div id="project10" class="project-summary">
                 <p> For my Data Analysis and Exploration project, I worked with a group to gain insights on the correlations and insights from crime rate datasets and house 
@@ -161,47 +222,7 @@
             <!-- Add more project names and summaries as needed    -->
         </ul>
 
-        <h2>Experience</h2>
-        <ul class="larger-text">
-            <li>Artificial Intelligence Teacher Assistant
-                <ul class="bullet-style">
-                    <li>Teacher Assistant</li>
-                    <li>Increased student grades up to 20% by preparing and leading weekly discussion sessions.</li>
-                    <li>Improved student engagement by 15% through rapid grading and smooth communication.</li>
-                    <li>Assisted in developing course materials and providing technical support during labs.</li>
-                </ul>
-            </li>
-            <li>BitSecurerLab
-                <ul class="bullet-style">
-                    <li>Research Intern</li>
-                    <li>Learned and applied reverse engineering techniques using Ghidra for binary analysis.</li>
-                    <li>Developed a visualization tool that improved clarity of connected functions & memory objects by 25%.</li>
-                </ul>
-            </li>
-
-            <li>Boba Tea House
-                <ul class="bullet-style">
-                    <li>Created food and tea for the establishment promptly.</li>
-                    <li>Interacted with customers to create an open and friendly environment. </li>
-                    <li>Increased customer satisfaction by 10% through timely orders and friendly attitudes. </li>
-                </ul>
-            </li>
-            <li>Kadima Security Services
-                <ul class="bullet-style">
-                    <li>Managing calls, files, and letters</li>
-                    <li>Organizing the office and employees</li>
-                    <li>Increased employee satisfaction by 30% by creating a more efficient workspace</li>
-                </ul>
-            </li>
-            <li>High School SAT Tutor
-                <ul class="bullet-style">
-                    <li>Educating underclassmen</li>
-                    <li>Responding to questions </li>
-                    <li>Gauging understanding</li>
-                    <li>Creating appropriate presentations</li>
-            </ul>
-            </li>
-        </ul>
+        
     </div>
 <!--
     <footer>
