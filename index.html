@@ -74,7 +74,6 @@
             <span class="code-chip">SQL</span>
             <span class="code-chip">Pandas</span>
             <span class="code-chip">PyTorch</span>
-            <span class="code-chip">TensorFlow</span>
             <span class="code-chip">Spark</span>
             <span class="code-chip">Docker</span>
             <span class="code-chip">Ghidra</span>
@@ -88,13 +87,24 @@
         <!-- Summary -->
         <section class="section">
           <div class="section-label">Summary</div>
-          <p class="lede">MS graduate in Computer Science with experience in NLP/ML engineering, cybersecurity, and data analytics. I build and deploy technical solutions in Python and C++, leveraging tools such as Pandas, TensorFlow, LLM APIs, and Burp Suite. My work is research-driven &mdash; spanning cybersecurity reverse engineering and AI instruction &mdash; with a focus on efficient, scalable systems. I'm comfortable working in Agile teams and translating complex technical concepts into practical implementations.</p>
+          <p class="lede">MS graduate in Computer Science with experience in NLP/ML engineering, cybersecurity, and data analytics. I build and deploy technical solutions in Python and C++, leveraging tools such as Pandas, PyTorch, LLM APIs, and Burp Suite. My work is research-driven &mdash; spanning cybersecurity reverse engineering and AI instruction &mdash; with a focus on efficient, scalable systems. I'm comfortable working in Agile teams and translating complex technical concepts into practical implementations.</p>
         </section>
 
         <!-- Experience -->
         <section class="section">
           <div class="section-label">Experience</div>
           <div class="xp">
+
+            <div class="xp-item">
+              <div class="xp-rule"></div>
+              <div>
+                <div class="xp-role">Cage Operations Technician</div>
+                <div class="xp-org">Yaamava Resort &amp; Casino &middot; Highland, CA</div>
+                <ul>
+                  <li>Maintains and repairs kiosks, ATMs, and currency counters while following gaming compliance procedures.</li>
+                </ul>
+              </div>
+            </div>
 
             <div class="xp-item">
               <div class="xp-rule"></div>
@@ -114,7 +124,7 @@
             <div class="xp-item">
               <div class="xp-rule"></div>
               <div>
-                <div class="xp-role">Research Intern</div>
+                <div class="xp-role">Software Engineer Intern</div>
                 <div class="xp-org">BitSecurerLab</div>
                 <ul>
                   <li>Applied reverse engineering techniques using Ghidra to interpret binary structures and support feature development for the disassembler platform.</li>
@@ -229,11 +239,11 @@
        tags:["Vue.js","Three.js","REST API","Ghidra"],
        body:["Worked on a full-fledged online disassembler at BitSecurerLab, bridging the technical communication gap between the team's abilities and expectations.","Helped build a 3D force-graph for the disassembler to improve ease of use, built in Vue.","Extended the force-graph toward a Ghidra plugin to aid the disassembling process and add visual clarity."]},
       {name:"Crime Rate & Housing-Price Analysis", cat:"Data Analysis", url:"https://github.com/Badminininja/Crime-Rate-and-Housing-Price-analysis-in-the-United-States/tree/main",
-       tags:["Python","Pandas","Plotly","Jupyter"],
-       body:["For my Data Analysis & Exploration project, worked with a group to find correlations between U.S. crime-rate and housing-price datasets.","Sourced and cleaned the data so the signals of interest could be extracted properly.","Built visualizations to present the findings."]},
+       tags:["Python","Pandas","Plotly","Jupyter","Docker"],
+       body:["For my Data Analysis & Exploration project, worked with a group to find correlations between U.S. crime-rate and housing-price datasets.","Sourced and cleaned the data so the signals of interest could be extracted properly.","Built choropleth maps and correlation analysis to present the findings, and packaged it as a one-command Docker + JupyterLab environment for reproducible runs."]},
       {name:"Crashed and Deserted", cat:"Algorithms", url:"https://github.com/Badminininja/CrashedAndDeserted",
-       tags:["C++","GoogleTest","Design Patterns"],
-       body:["A team-built text-based decision adventure game with branching paths and multiple endings.","Featured a combat system rolling dice based on enemy and player stats.","Practiced GoogleTest and the Strategy, Abstract Factory, and Singleton design patterns."]},
+       tags:["C++","GoogleTest","CMake","Docker"],
+       body:["A team-built text-based decision adventure game with branching paths and multiple endings.","Featured a combat system rolling dice based on enemy and player stats.","Practiced GoogleTest and the Strategy, Abstract Factory, and Singleton design patterns.","Containerized the CMake build with Docker so the game and its GoogleTest suite run in one command."]},
       {name:"MALdoro — Citrus Hack 2021", cat:"Hackathon", url:"https://github.com/hscottvo/MALdoro",
        tags:["Python","JustWatch API","Front-End"],
        body:["24-hour hackathon project: a work-break balance tool that takes the user's anime list as an XML file.","After a set work interval, surfaces anime streaming sites via the JustWatch API for the break session.","My first time using Python — worked mainly on the front-end while offering back-end insight."]},
@@ -245,7 +255,7 @@
        body:["Implemented forward selection and backward elimination with a nearest-neighbor classifier.","Used leave-one-out cross-validation to classify datasets for proper nearest-neighbor associations."]},
       {name:"BrewDB — Café Management System", cat:"Databases", url:"https://github.com/Badminininja/BrewDB",
        tags:["Java","JDBC","PostgreSQL","Docker"],
-       body:["A CS166 database project: a mock café where users log in and order from a menu.","Privileged users (employees, managers) can modify the menu and orders.","Built in Java and PostgreSQL over a normalized schema."]},
+       body:["A CS166 database project: a mock café where users log in and order from a menu.","Privileged users (employees, managers) can modify the menu and orders.","Built in Java and PostgreSQL over a normalized four-table schema, loaded with a seed dataset of ~28k users / 87k orders / 130k records.","Containerized the app and database with Docker Compose so the whole thing runs anywhere with one command."]},
       {name:"Cutie Hack 2019", cat:"Hackathon", url:"https://github.com/aliu112/CutieHack-Project",
        tags:["Back-End","HTML","Calculations"],
        body:["A 12-hour hackathon during my first quarter at UCR.","Estimated a user's approximate carbon footprint from a questionnaire via back-end calculations.","Built a simple HTML interface for the questionnaire."]},
